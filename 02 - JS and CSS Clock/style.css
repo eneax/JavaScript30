@@ -1,7 +1,13 @@
+/* 
+COLORS:
+  8ad5eb
+  8a54a2
+  5954A4
+  04254E
+*/
+
 html {
-  background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
-  background-size:cover;
-  font-family:'helvetica neue';
+  background:#8ad5eb;
   text-align: center;
   font-size: 10px;
 }
@@ -18,15 +24,15 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  border: 10px solid #5954A4;
+  background: #f8f8f8;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0,0,0,0.1),
-              inset 0 0 0 3px #EFEFEF,
-              inset 0 0 10px black,
-              0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 
+              0 1px 18px 0 rgba(0, 0, 0, .12),
+              0 3px 5px -1px rgba(0, 0, 0, .2);
 }
 
 .clock-face {
@@ -36,14 +42,83 @@ body {
   transform: translateY(-3px); /* account for the height of the clock hands */
 }
 
+.inset-clock-face:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 18px;
+  margin-left: -9px;
+  margin-top: -6px;
+  background: #5a376a;
+  z-index: 11;
+}
+
+.dots {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.dots .dot {
+  position: absolute;
+  top: calc(50% - 0.1875rem);
+  width: 100%;
+  height: 0.625rem;
+}
+
+.dots .dot:before,
+.dots .dot:after {
+  position: absolute;
+  content: '';
+  width: 0.625rem;
+  height: 0.625rem;
+  background-color: #5954A4;
+  border-radius: 50%;
+}
+
+.dots .dot:before { left: 0; }
+.dots .dot:after { right: 0; }
+
+.dots .dot:nth-of-type(1) { transform: rotate(0deg); }
+.dots .dot:nth-of-type(2) { transform: rotate(30deg); }
+.dots .dot:nth-of-type(3) { transform: rotate(60deg); }
+.dots .dot:nth-of-type(4) { transform: rotate(90deg); }
+.dots .dot:nth-of-type(5) { transform: rotate(120deg); }
+.dots .dot:nth-of-type(6) { transform: rotate(150deg); }
+
 .hand {
   width: 50%;
   height: 6px;
-  background:black;
+  background: #04254E;
   position: absolute;
   top: 50%;
+  right: 50%;
+  border-radius: 10px;
   transform-origin: 100%; /* make the rotation on the x-axis (the default is 50%) */
   transform: rotate(90deg); /* hands start at 12 */
   transition: all .05s; /* it gives a ticking effect */
   transition-timing-function: cubic-bezier(.1, 2.7, .58, 1); /* it animates the ticking effect */
+}
+
+.hand.hour-hand {
+  width: 25%;
+  z-index: 5;
+}
+
+.hand.min-hand {
+  width: 35%;
+  z-index: 10;
+}
+
+.hand.second-hand {
+  background: #ff4939;
+  width: 40%;
+  height: 2px;
 }
