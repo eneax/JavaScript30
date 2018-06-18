@@ -115,17 +115,17 @@ body {
 }
 
 .hand.hour-hand {
-  width: 25%;
+  width: 30%;
   z-index: 5;
 }
 
 .hand.min-hand {
-  width: 35%;
+  width: 40%;
   z-index: 10;
 }
 
 .hand.second-hand {
   background: #ff4939;
-  width: 40%;
-  height: 2px;
+  width: 45%;
+  height: 3px;
 }
