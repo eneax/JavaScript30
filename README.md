@@ -10,3 +10,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [02 - JS and CSS Clock](https://eneax.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)
 
 * [03 - CSS Variables](https://eneax.github.io/JavaScript30/03%20-%20CSS%20Variables/)
+
+* [04 - Array Cardio Day 1](https://eneax.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)
