@@ -14,3 +14,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [04 - Array Cardio Day 1](https://eneax.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)
 
 * [05 - Flex Panel Gallery](https://eneax.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
+
+* [06 - Type Ahead](https://eneax.github.io/JavaScript30/06%20-%20Type%20Ahead/)
