@@ -18,3 +18,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [06 - Type Ahead](https://eneax.github.io/JavaScript30/06%20-%20Type%20Ahead/)
 
 * [07 - Array Cardio Day 2](https://eneax.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/)
+
+* [08 - Fun with HTML5 Canvas](https://eneax.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
