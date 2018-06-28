@@ -26,3 +26,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [10 - Hold Shift and Check Checkboxes](https://eneax.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
 
 * [11 - Custom Video Player](https://eneax.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
+
+* [12 - Key Sequence Detection](https://eneax.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
