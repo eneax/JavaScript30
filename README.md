@@ -30,3 +30,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [12 - Key Sequence Detection](https://eneax.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/)
 
 * [13 - Slide in on Scroll](https://eneax.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/)
+
+* [14 - JavaScript References VS Copying](https://eneax.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)
