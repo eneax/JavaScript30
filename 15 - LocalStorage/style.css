@@ -57,8 +57,15 @@ h2 {
 
 .add-items { margin-top: 20px; }
 
+.bonus input,
 .add-items input {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.bonus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }

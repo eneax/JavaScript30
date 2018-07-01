@@ -1,6 +1,8 @@
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.plates');
 const items = JSON.parse(localStorage.getItem('items')) || []; // it will try to get items from localStorage and if there is nothing there it will fallback to an empty array 
+const toggleItems = document.querySelector('.toggle-items');
+const clearItems = document.querySelector('.clear-list');
 
 function addItem(e) {
   e.preventDefault();
@@ -35,7 +37,23 @@ function toggleDone(e) {
   populateList(items, itemsList);
 }
 
+function toggleAllDone(e) {
+  e.preventDefault();
+  items.filter(el => el.done = !el.done);
+  localStorage.setItem('items', JSON.stringify(items));
+  populateList(items, itemsList);
+}
+
+function clearList(e) {
+  e.preventDefault();
+  items.length = 0;
+  localStorage.clear();
+  populateList([], itemsList);
+}
+
 addItems.addEventListener('submit', addItem);
 itemsList.addEventListener('click', toggleDone);
+toggleItems.addEventListener('click', toggleAllDone);
+clearItems.addEventListener('click', clearList);
 
 populateList(items, itemsList);
