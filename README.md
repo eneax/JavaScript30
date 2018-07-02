@@ -34,3 +34,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [14 - JavaScript References VS Copying](https://eneax.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying/)
 
 * [15 - LocalStorage](https://eneax.github.io/JavaScript30/15%20-%20LocalStorage/)
+
+* [16 - Mouse Move Shadow](https://eneax.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
