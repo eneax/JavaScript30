@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  background: #000;
+  background: -webkit-linear-gradient(to right, #434343, #000);
+  background: linear-gradient(to right, #434343, #000);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#bands {
+  list-style: inside square;
+  font-size: 20px;
+  color: #efefef;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, .05);
+}
+#bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+#bands li:last-child { border-bottom: 0; }
