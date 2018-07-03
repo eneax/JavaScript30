@@ -36,3 +36,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [15 - LocalStorage](https://eneax.github.io/JavaScript30/15%20-%20LocalStorage/)
 
 * [16 - Mouse Move Shadow](https://eneax.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
+
+* [17 - Sort Without Articles](https://eneax.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
