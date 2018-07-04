@@ -38,3 +38,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [16 - Mouse Move Shadow](https://eneax.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/)
 
 * [17 - Sort Without Articles](https://eneax.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles/)
+
+* [18 - Adding Up Times with Reduce](https://eneax.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/)
