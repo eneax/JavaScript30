@@ -42,3 +42,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [18 - Adding Up Times with Reduce](https://eneax.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/)
 
 * [19 - Webcam Fun](https://eneax.github.io/JavaScript30/19%20-%20Webcam%20Fun/)
+
+* [20 - Speech Detection](https://eneax.github.io/JavaScript30/20%20-%20Speech%20Detection/)
