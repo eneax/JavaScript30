@@ -44,3 +44,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [19 - Webcam Fun](https://eneax.github.io/JavaScript30/19%20-%20Webcam%20Fun/)
 
 * [20 - Speech Detection](https://eneax.github.io/JavaScript30/20%20-%20Speech%20Detection/)
+
+* [21 - Geolocation](https://eneax.github.io/JavaScript30/21%20-%20Geolocation/)
