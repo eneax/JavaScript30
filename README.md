@@ -48,3 +48,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [21 - Geolocation](https://eneax.github.io/JavaScript30/21%20-%20Geolocation/)
 
 * [22 - Follow Along Link Highlighter](https://eneax.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/)
+
+* [23 - Speech Synthesis](https://eneax.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)
