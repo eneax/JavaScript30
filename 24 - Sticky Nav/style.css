@@ -1,13 +1,11 @@
 html {
   box-sizing: border-box;
   background:#eeeeee;
-  font-family:'helvetica neue';
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
   font-size: 20px;
   font-weight: 200;
 }
-body {
-  margin: 0;
-}
+body { margin: 0; }
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -15,39 +13,37 @@ body {
 .site-wrap {
   max-width: 700px;
   margin: 70px auto;
-  background:white;
-  padding:40px;
+  background: #fff;
+  padding: 40px;
   text-align: justify;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, .05);
   transform: scale(0.98);
-  transition: transform 0.5s;
+  transition: transform .5s;
 }
 
-.fixed-nav .site-wrap {
-  transform: scale(1);
-}
+.fixed-nav .site-wrap { transform: scale(1); }
 
 header {
   text-align: center;
-  height:50vh;
-  background:url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
-  background-size:cover;
-  display:flex;
-  align-items:center;
+  height: 50vh;
+  background: url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 h1 {
-  color:white;
+  color: #fff;
   font-size: 7vw;
-  text-shadow: 3px 4px 0 rgba(0,0,0,0.2)
+  text-shadow: 3px 4px 0 rgba(0, 0, 0, .2);
 }
 
 nav {
-  background:black;
-  top:0;
+  background: #212529;
+  top: 0;
   width: 100%;
-  transition:all 0.5s;
+  transition: all 0.5s;
   position: relative;
   z-index: 1;
 }
@@ -65,7 +61,7 @@ nav ul {
 }
 
 nav li {
-  flex:1;
+  flex: 1;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -73,27 +69,23 @@ nav li {
 }
 
 li.logo {
-  max-width:0;
+  max-width: 0;
   overflow: hidden;
-  background: white;
+  background: #fff;
   transition: all .5s;
   font-weight: 600;
   font-size: 30px;
 }
 
-.fixed-nav li.logo {
-  max-width: 500px;
-}
+.fixed-nav li.logo { max-width: 500px; }
 
-li.logo a {
-  color:black;
-}
+li.logo a { color: #212529; }
 
 nav a {
   text-decoration: none;
-  padding:20px;
+  padding: 20px;
   display: inline-block;
-  color:white;
-  transition:all 0.2s;
+  color: #fff;
+  transition: all .2s;
   text-transform: uppercase;
 }
