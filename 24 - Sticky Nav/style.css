@@ -28,15 +28,14 @@ body { margin: 0; }
 header {
   text-align: center;
   height: 50vh;
-  background: url(http://wes.io/iEgP/wow-so-deep.jpg) bottom center no-repeat;
-  background-size: cover;
+  background-color: #eeeeee;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 h1 {
-  color: #fff;
+  color: #212529;
   font-size: 7vw;
   text-shadow: 3px 4px 0 rgba(0, 0, 0, .2);
 }
@@ -92,4 +91,22 @@ nav a {
   color: #fff;
   transition: all .2s;
   text-transform: uppercase;
+}
+
+img {
+  width: 100%; 
+  height: auto;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-in { transform:translateX(-30%) scale(.95); }
+.align-right.slide-in { transform:translateX(30%) scale(.95); }
+
+.slide-in.active {
+  opacity: 1;
+  transform:translateX(0%) scale(1);
 }
