@@ -50,3 +50,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [22 - Follow Along Link Highlighter](https://eneax.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter/)
 
 * [23 - Speech Synthesis](https://eneax.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)
+
+* [24 - Sticky Nav](https://eneax.github.io/JavaScript30/24%20-%20Sticky%20Nav/)
