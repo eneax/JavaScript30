@@ -52,3 +52,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [23 - Speech Synthesis](https://eneax.github.io/JavaScript30/23%20-%20Speech%20Synthesis/)
 
 * [24 - Sticky Nav](https://eneax.github.io/JavaScript30/24%20-%20Sticky%20Nav/)
+
+* [25 - Event Capture, Propagation, Bubbling and Once](https://eneax.github.io/JavaScript30/25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once/)
