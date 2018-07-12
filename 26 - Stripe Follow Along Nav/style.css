@@ -104,9 +104,9 @@ nav ul {
   margin-right: 20px;
 }
 
-.courses { min-width:300px; }
+.work { min-width:300px; }
 
-.courses li {
+.work li {
   padding: 10px 0;
   display: block;
   border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -125,8 +125,7 @@ a.button {
   margin-bottom: 10px;
 }
 
-
 /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
 .button[href*=twitter] { background: #019FE9; }
 .button[href*=facebook] { background: #3B5998; }
-.button[href*=courses] { background: #ffc600; }
+.button[href*=work] { background: #ffc600; }
