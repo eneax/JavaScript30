@@ -58,3 +58,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [26 - Stripe Follow Along Nav](https://eneax.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav)
 
 * [27 - Click and Drag](https://eneax.github.io/JavaScript30/27%20-%20Click%20and%20Drag/)
+
+* [28 - Video Speed Controller](https://eneax.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)
