@@ -60,3 +60,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [27 - Click and Drag](https://eneax.github.io/JavaScript30/27%20-%20Click%20and%20Drag/)
 
 * [28 - Video Speed Controller](https://eneax.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)
+
+* [29 - Countdown Timer](https://eneax.github.io/JavaScript30/29%20-%20Countdown%20Timer/)
