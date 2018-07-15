@@ -18,6 +18,8 @@ function timer(seconds) {
     if(secondsLeft < 0) {
       clearInterval(countdown);
       return;
+    } else if (secondsLeft === 0) {
+      endTime.textContent = 'Back to work!!!';
     }
     // display it
     displayTimeLeft(secondsLeft);
