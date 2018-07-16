@@ -15,6 +15,7 @@ body {
   margin: 0;
   font-family: 'Amatic SC', cursive;
   text-align: center;
+  cursor: url('hammer.ico'), default;
 }
 
 h1 {
@@ -85,7 +86,7 @@ h2 {
   color: #fff;
   font-size: 2.5rem;
   padding: 1rem 1rem;
-  cursor: pointer;
   margin-bottom: 2rem;
+  cursor: url('hammer.ico'), default;
 }
 .start:hover { opacity: .7; }
