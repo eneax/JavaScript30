@@ -62,3 +62,5 @@ This repo contains all the challenges from the amazing course [JavaScript30](htt
 * [28 - Video Speed Controller](https://eneax.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/)
 
 * [29 - Countdown Timer](https://eneax.github.io/JavaScript30/29%20-%20Countdown%20Timer/)
+
+* [30 - Whack A Mole](https://eneax.github.io/JavaScript30/30%20-%20Whack%20A%20Mole/)
